@@ -1,4 +1,4 @@
 # SQL Cheat Sheet
 
-##Summary
+## Summary
 This repository contains basic mySQL concepts and code.
