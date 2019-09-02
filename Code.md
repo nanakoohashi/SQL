@@ -1,7 +1,7 @@
 # MySQL Code Sheet
 
 ### ORDER BY
-`SELECT column_name  
+`SELECT column_name\s\s
 FROM table_name  
 ORDER BY column_name DESC/ASC;`
 
