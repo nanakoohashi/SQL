@@ -9,3 +9,9 @@
 **SELECT** column_name  
 **FROM** table_name  
 **WHERE** Population < 10000 **OR** Population **IS NULL**;
+
+### LIKE
+**SELECT** column_name, column_name2
+**FROM** table_name
+**WHERE** column_name **LIKE** '%island%'
+**ORDER BY** column_name;
