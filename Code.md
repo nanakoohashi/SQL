@@ -15,3 +15,7 @@
 **FROM** table_name
 **WHERE** column_name **LIKE** '%island%'
 **ORDER BY** column_name;
+*Note: 
+%word = ends with 'word'  
+word% = starts with 'word'
+%word% = contains 'word' within entry.*
