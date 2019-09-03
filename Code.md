@@ -11,10 +11,11 @@
 **WHERE** Population < 10000 **OR** Population **IS NULL**;
 
 ### LIKE
-**SELECT** column_name, column_name2
-**FROM** table_name
-**WHERE** column_name **LIKE** '%island%'
-**ORDER BY** column_name;
+**SELECT** column_name, column_name2  
+**FROM** table_name  
+**WHERE** column_name **LIKE** '%island%'  
+**ORDER BY** column_name;  
+  
 *Note: 
 %word = ends with 'word'  
 word% = starts with 'word'
