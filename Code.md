@@ -18,5 +18,6 @@
   
 *Note: 
 %word = ends with 'word'  
-word% = starts with 'word'
-%word% = contains 'word' within entry.*
+word% = starts with 'word'  
+%word% = contains 'word' in any position  
+a%o = contains any value that start with 'a' and ends with 'o'*
