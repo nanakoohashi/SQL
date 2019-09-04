@@ -22,3 +22,7 @@ word% = starts with 'word'
 %word% = contains 'word' in any position  
 a%o = contains any value that start with 'a' and ends with 'o'
 
+#### IN
+**SELECT** column_name, column_name2  
+**FROM** table_name  
+**WHERE** column_name **IN**('a', 'b');
