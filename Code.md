@@ -16,7 +16,7 @@
 **WHERE** column_name **LIKE** '%island%'  
 **ORDER BY** column_name;  
   
-#### Note:  
+#### Note:
 %word = ends with 'word'  
 word% = starts with 'word'  
 %word% = contains 'word' in any position  
