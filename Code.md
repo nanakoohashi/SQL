@@ -40,3 +40,7 @@ a%o = contains any value that start with 'a' and ends with 'o'
 **SET** c = 'new_row_entry'  
 **WHERE** a = 2;
 
+### DELETE rows
+**DELETE FROM** table_name  
+**WHERE** a = 2;
+
