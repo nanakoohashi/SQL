@@ -46,3 +46,7 @@ a%o = contains any value that start with 'a' and ends with 'o'
 
 ### DROP TABLE
 **DROP TABLE** table_name;
+
+### IS NULL
+**SELECT** * **FROM** table_name  
+**WHERE** c **IS NULL**;
