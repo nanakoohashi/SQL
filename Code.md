@@ -44,3 +44,5 @@ a%o = contains any value that start with 'a' and ends with 'o'
 **DELETE FROM** table_name  
 **WHERE** a = 2;
 
+### DROP TABLE
+**DROP TABLE** table_name;
