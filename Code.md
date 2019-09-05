@@ -22,7 +22,16 @@ word% = starts with 'word'
 %word% = contains 'word' in any position  
 a%o = contains any value that start with 'a' and ends with 'o'
 
-#### IN
+### IN
 **SELECT** column_name, column_name2  
 **FROM** table_name  
 **WHERE** column_name **IN**('a', 'b');
+
+### INSERT INTO
+#### All columns
+**INSERT INTO** table_name **VALUES**(1,'a', 'wow!');  
+#### Specific columns
+**INSERT INTO** table_name(column_name2, column_name3) **VALUES** ('a', 'wow!');
+#### Columns from other tables
+**INSERT INTO** table_name(column_name, column_name2, column_name3) **SELECT** column2_name, column2_name2, column2_name3 **FROM** table_name2;
+  
