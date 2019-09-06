@@ -1,5 +1,14 @@
 # MySQL Code Sheet
 
+### CREATE TABLE
+**CREATE TABLE** table_name (  
+column_name **INT NOT NULL AUTO_INCREMENT PRIMARY KEY**,  
+column2_name **VARCHAR(255)**,  
+column3_name DECIMAL(4,2),
+column4_name CHAR(4))  
+;  
+**NB**: CHAR = fixed length
+
 ### ORDER BY
 **SELECT** column_name  
 **FROM** table_name  
@@ -50,3 +59,4 @@ a%o = contains any value that start with 'a' and ends with 'o'
 ### IS NULL
 **SELECT** * **FROM** table_name  
 **WHERE** c **IS NULL**;
+
