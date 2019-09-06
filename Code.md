@@ -1,5 +1,6 @@
 # MySQL Code Sheet
 
+## Create
 ### CREATE TABLE
 **CREATE TABLE** table_name (  
 column_name **INT NOT NULL AUTO_INCREMENT PRIMARY KEY**,  
@@ -9,6 +10,7 @@ column4_name **CHAR(4)**)
 ;  
 **NB**: CHAR = fixed length
 
+## Query and Modify
 ### ORDER BY
 **SELECT** column_name  
 **FROM** table_name  
@@ -24,8 +26,7 @@ column4_name **CHAR(4)**)
 **FROM** table_name  
 **WHERE** column_name **LIKE** '%island%'  
 **ORDER BY** column_name;  
-  
-#### Note:
+**Note**:
 %word = ends with 'word'  
 word% = starts with 'word'  
 %word% = contains 'word' in any position  
