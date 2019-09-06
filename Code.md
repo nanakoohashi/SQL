@@ -4,8 +4,8 @@
 **CREATE TABLE** table_name (  
 column_name **INT NOT NULL AUTO_INCREMENT PRIMARY KEY**,  
 column2_name **VARCHAR(255)**,  
-column3_name DECIMAL(4,2),
-column4_name CHAR(4))  
+column3_name **DECIMAL(4,2)**,  
+column4_name **CHAR(4)**)  
 ;  
 **NB**: CHAR = fixed length
 
