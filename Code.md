@@ -8,7 +8,7 @@ column2_name **VARCHAR(255)**,
 column3_name **DECIMAL(4,2)**,  
 column4_name **CHAR(4)**)  
 ;  
-* **NB**: CHAR = fixed length * 
+* **NB**: CHAR = fixed length 
 
 ## Query and Modify
 ### ORDER BY
