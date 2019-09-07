@@ -11,6 +11,7 @@ column4_name **CHAR(4)**)
 - **NB**: CHAR = fixed length 
 
 ### CREATE INDEX
+#### Create index while creating table
 **CREATE TABLE** table_name (  
 column_name INT,  
 column_name2 VARCHAR(255),  
@@ -18,6 +19,8 @@ column_name3 VARCHAR(255),
 **INDEX**(column)  
 ;  
 - **NB**: column is the column you want to index.
+#### Create index
+**CREATE INDEX** index_name ON table_name(column);
 
 ## Query and Modify
 ### ORDER BY
