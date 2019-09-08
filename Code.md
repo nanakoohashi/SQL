@@ -70,6 +70,9 @@ a%o = contains any value that start with 'a' and ends with 'o'
 **DROP TABLE** table_name;
 
 ### IS NULL
-**SELECT** * **FROM** table_name  
+**SELECT** * **FROM** table_name    
 **WHERE** c **IS NULL**;
 
+### Primary Key and Auto-Increment
+**CREATE TABLE** table_name (
+table_name INT **AUTO_INCREMENT PRIMARY KEY*);
