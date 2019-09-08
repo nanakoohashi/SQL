@@ -87,3 +87,6 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 #### Choose where to add column
 **ALTER TABLE** table_name
 **ADD** column_name VARCHAR(10) **AFTER** other_column_name;
+
+### Format date
+**SELECT DATE_FORMAT**(Now(), '%W, %D, %M, %Y');
