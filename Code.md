@@ -76,3 +76,7 @@ a%o = contains any value that start with 'a' and ends with 'o'
 ### Primary Key and Auto-Increment
 **CREATE TABLE** table_name (
 table_name INT **AUTO_INCREMENT PRIMARY KEY*);
+
+### ALTER TABLE
+**ALTER TABLE** table_name  
+**ADD** column_name VARCHAR(10);
