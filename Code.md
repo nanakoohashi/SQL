@@ -90,3 +90,6 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 
 ### Format date
 **SELECT DATE_FORMAT**(Now(), '%W, %D, %M, %Y');
+
+## Triggers
+
