@@ -91,6 +91,8 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 ### Format date
 **SELECT DATE_FORMAT**(Now(), '%W, %D, %M, %Y');
 
+## Aggregate Functions
+
 ## Triggers
 ### Create Trigger
 **CREATE TRIGGER** trigger_name **AFTER INSERT ON**  table_name  
