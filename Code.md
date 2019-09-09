@@ -105,3 +105,8 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
   - AFTER INSERT
   - AFTER UPDATE
   - AFTER DELETE
+  
+ ## Stored Function
+ **CREATE FUNCTION** track_len (seconds INT)  
+ **RETURNS** VARCHAR(16)  
+ **RETURN CONCAT_WS;
