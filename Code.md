@@ -112,9 +112,9 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
  **RETURN CONCAT_WS;
  
  ## Stored Procedure
-**DELIMITER // **  
+**DELIMITER //**  
 **CREATE PROCEDURE** procedure_name()  
 **BEGIN**  
 **SELECT** * FROM table_name;  
 **END //**  
-**DELIMITER ; **
+**DELIMITER ;**
