@@ -92,4 +92,4 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 **SELECT DATE_FORMAT**(Now(), '%W, %D, %M, %Y');
 
 ## Triggers
-
+### Create Trigger
