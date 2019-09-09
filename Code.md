@@ -96,4 +96,12 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 **CREATE TRIGGER** trigger_name **AFTER INSERT ON**  table_name  
 **FOR EACH ROW**  
 **UPDATE** table_name2 **SET** last_order_id = New.id  
-**WHERE** id = New.Customer.id
+**WHERE** id = New.Customer.id  
+  
+  Other options:
+  - BEFORE INSERT
+  - BEFORE UPDATE
+  - BEFORE DELETE
+  - AFTER INSERT
+  - AFTER UPDATE
+  - AFTER DELETE
