@@ -77,19 +77,19 @@ a%o = contains any value that start with 'a' and ends with 'o'
 **CREATE TABLE** table_name (
 table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 
-### ALTER TABLE
-#### Add
-**ALTER TABLE** table_name  
-**ADD** column_name VARCHAR(10);  
-#### Drop  
-**ALTER TABLE** table_name  
-**DROP** column_name;  
-#### Choose where to add column
-**ALTER TABLE** table_name
-**ADD** column_name VARCHAR(10) **AFTER** other_column_name;
-
 ### Format date
 **SELECT DATE_FORMAT**(Now(), '%W, %D, %M, %Y');
+
+## ALTER TABLE
+### Add
+**ALTER TABLE** table_name  
+**ADD** column_name VARCHAR(10);  
+### Drop  
+**ALTER TABLE** table_name  
+**DROP** column_name;  
+### Choose where to add column
+**ALTER TABLE** table_name
+**ADD** column_name VARCHAR(10) **AFTER** other_column_name;
 
 ## Add to Table
 ### Foreign Key
