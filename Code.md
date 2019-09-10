@@ -95,8 +95,13 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 ### Foreign Key
 **ALTER TABLE** table_name **ADD FOREIGN KEY** (key_name) **REFERENCES** table_name2(key_name);
 
-## Add Comment to Table
+### Add Comment to Table
 **ALTER TABLE** table_name **COMMENT =** 'This is just to test how to alter comments';
+
+### Add Comment to Column
+**ALTER TABLE** table_name **CHANGE COLUMN** column_name  
+column_name INT(11)  
+**COMMENT** 'comment goes here'
 
 ## Aggregate Functions
 ### DISTINCT
