@@ -93,7 +93,7 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 
 ## Add to Table
 ### Foreign Key
-
+**ALTER TABLE** table_name **ADD FOREIGN KEY** (key_name) **REFERENCES** table_name2(key_name);
 
 ## Aggregate Functions
 ### DISTINCT
