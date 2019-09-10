@@ -91,6 +91,10 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 ### Format date
 **SELECT DATE_FORMAT**(Now(), '%W, %D, %M, %Y');
 
+## Add to Table
+### Foreign Key
+
+
 ## Aggregate Functions
 ### DISTINCT
 **SELECT** COUNT(**DISTINCT** Continent) **FROM** Country;
