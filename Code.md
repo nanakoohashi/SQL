@@ -81,10 +81,10 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 **SELECT DATE_FORMAT**(Now(), '%W, %D, %M, %Y');
 
 ## ALTER TABLE
-### Add
+### Add Column
 **ALTER TABLE** table_name  
 **ADD** column_name VARCHAR(10);  
-### Drop  
+### Drop Column
 **ALTER TABLE** table_name  
 **DROP** column_name;  
 ### Choose where to add column
