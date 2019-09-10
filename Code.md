@@ -95,6 +95,9 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 ### Foreign Key
 **ALTER TABLE** table_name **ADD FOREIGN KEY** (key_name) **REFERENCES** table_name2(key_name);
 
+## Add Comment to Table
+**ALTER TABLE** table_name **COMMENT =** 'This is just to test how to alter comments';
+
 ## Aggregate Functions
 ### DISTINCT
 **SELECT** COUNT(**DISTINCT** Continent) **FROM** Country;
