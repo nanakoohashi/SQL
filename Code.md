@@ -91,6 +91,10 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 **ALTER TABLE** table_name
 **ADD** column_name VARCHAR(10) **AFTER** other_column_name;
 
+## Aggregate Functions
+### DISTINCT
+**SELECT** COUNT(**DISTINCT** Continent) **FROM** Country;
+
 ## Add to Table
 ### Foreign Key
 **ALTER TABLE** table_name **ADD FOREIGN KEY** (key_name) **REFERENCES** table_name2(key_name);
@@ -103,9 +107,6 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 column_name INT(11)  
 **COMMENT** 'comment goes here'
 
-## Aggregate Functions
-### DISTINCT
-**SELECT** COUNT(**DISTINCT** Continent) **FROM** Country;
 ## Triggers
 ### Create Trigger
 **CREATE TRIGGER** trigger_name **AFTER INSERT ON**  table_name  
