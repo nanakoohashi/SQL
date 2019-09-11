@@ -22,7 +22,7 @@ column_name3 VARCHAR(255),
 #### Create index
 **CREATE INDEX** index_name ON table_name(column);
 
-## Query and Modify
+## Query 
 ### ORDER BY
 **SELECT** column_name  
 **FROM** table_name  
@@ -49,6 +49,10 @@ a%o = contains any value that start with 'a' and ends with 'o'
 **FROM** table_name  
 **WHERE** column_name **IN**('a', 'b');
 
+### IS NULL
+**SELECT** * **FROM** table_name    
+**WHERE** c **IS NULL**;
+
 ### INSERT INTO
 #### All columns
 **INSERT INTO** table_name **VALUES**(1,'a', 'wow!');  
@@ -68,10 +72,6 @@ a%o = contains any value that start with 'a' and ends with 'o'
 
 ### DROP TABLE
 **DROP TABLE** table_name;
-
-### IS NULL
-**SELECT** * **FROM** table_name    
-**WHERE** c **IS NULL**;
 
 ### Primary Key and Auto-Increment
 **CREATE TABLE** table_name (
