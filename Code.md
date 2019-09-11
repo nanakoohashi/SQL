@@ -51,7 +51,7 @@ a%o = contains any value that start with 'a' and ends with 'o'
 
 ### IS NULL
 **SELECT** * **FROM** table_name    
-**WHERE** c **IS NULL**;
+**WHERE** column_name **IS NULL**;
 
 ### INSERT INTO
 #### All columns
@@ -134,3 +134,7 @@ column_name INT(11)
 **SELECT** * FROM table_name;  
 **END //**  
 **DELIMITER ;**
+
+# Select multiple tables with one query
+There are two tables:  
+- **tbl_product**: product_id, product_name, update_time, sale
