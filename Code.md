@@ -81,7 +81,15 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 **SELECT DATE_FORMAT**(Now(), '%W, %D, %M, %Y');
 
 ## Query from Multiple Tables
-
+**SELECT** m.member_id,  
+m.name AS member,  
+c.committee_id,  
+c.name AS committee,  
+l.city  
+**FROM** members m  
+  **INNER JOIN** committees c **ON** c.name = m.name
+  **INNER JOIN** location l **ON** c.city = l.city;  
+  
 ## ALTER TABLE
 ### Add Column
 **ALTER TABLE** table_name  
