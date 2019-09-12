@@ -123,6 +123,9 @@ column_name INT(11)
 ## Rename Column
 **ALTER TABLE** table_name **CHANGE** old_column_name new_column_name data_type;
 
+### Change Data Type of Column 
+**ALTER TABLE** table_name **MODIFY COLUMN** column_name new_data_type;
+
 ## Triggers
 ### Create Trigger
 **CREATE TRIGGER** trigger_name **AFTER INSERT ON**  table_name  
