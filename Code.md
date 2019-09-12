@@ -53,13 +53,15 @@ a%o = contains any value that start with 'a' and ends with 'o'
 **SELECT** * **FROM** table_name    
 **WHERE** column_name **IS NULL**;
 
+## Modify
 ### INSERT INTO
 #### All columns
 **INSERT INTO** table_name **VALUES**(1,'a', 'wow!');  
 #### Specific columns
 **INSERT INTO** table_name(column_name2, column_name3) **VALUES** ('a', 'wow!');
 #### Columns from other tables
-**INSERT INTO** table_name(column_name, column_name2, column_name3) **SELECT** column2_name, column2_name2, column2_name3 **FROM** table_name2;
+**INSERT INTO** table_name(column_name, column_name2, column_name3) 
+**SELECT** column2_name, column2_name2, column2_name3 **FROM** table_name2;
 
 ### UPDATE rows
 **UPDATE** table_name  
@@ -80,6 +82,10 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 ### Format date
 **SELECT DATE_FORMAT**(Now(), '%W, %D, %M, %Y');
 
+## Aggregate Functions
+### DISTINCT
+**SELECT** COUNT(**DISTINCT** Continent) **FROM** Country;
+
 ## Query from Multiple Tables
 **SELECT** m.member_id,  
 m.name AS member,  
@@ -87,26 +93,23 @@ c.committee_id,
 c.name AS committee,  
 l.city  
 **FROM** members m  
-  **INNER JOIN** committees c **ON** c.name = m.name
+  **INNER JOIN** committees c **ON** c.name = m.name  
   **INNER JOIN** location l **ON** c.city = l.city;  
   
 ## ALTER TABLE
 ### Add Column
 **ALTER TABLE** table_name  
 **ADD** column_name VARCHAR(10);  
+
 ### Drop Column
 **ALTER TABLE** table_name  
 **DROP** column_name;  
+
 ### Choose where to add column
 **ALTER TABLE** table_name
 **ADD** column_name VARCHAR(10) **AFTER** other_column_name;
 
-## Aggregate Functions
-### DISTINCT
-**SELECT** COUNT(**DISTINCT** Continent) **FROM** Country;
-
-## Add to Table
-### Foreign Key
+### Add Foreign Key
 **ALTER TABLE** table_name **ADD FOREIGN KEY** (key_name) **REFERENCES** table_name2(key_name);
 
 ### Add Comment to Table
@@ -115,7 +118,10 @@ l.city
 ### Add Comment to Column
 **ALTER TABLE** table_name **CHANGE COLUMN** column_name  
 column_name INT(11)  
-**COMMENT** 'comment goes here'
+**COMMENT** 'comment goes here';
+
+## Rename Column
+**ALTER TABLE** table_name **CHANGE** old_column_name new_column_name data_type;
 
 ## Triggers
 ### Create Trigger
