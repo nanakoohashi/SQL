@@ -80,6 +80,8 @@ table_name INT **AUTO_INCREMENT PRIMARY KEY*);
 ### Format date
 **SELECT DATE_FORMAT**(Now(), '%W, %D, %M, %Y');
 
+## Query from Multiple Tables
+
 ## ALTER TABLE
 ### Add Column
 **ALTER TABLE** table_name  
