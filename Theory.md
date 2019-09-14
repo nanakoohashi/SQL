@@ -1,7 +1,7 @@
 # SQL Theory Sheet
 
 ## Keys
-
+- **Primary Key**: A column that *uniquely indentifies* any given row.
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
