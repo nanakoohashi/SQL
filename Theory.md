@@ -4,6 +4,7 @@
 - **Primary Key**: A column that *uniquely indentifies* any given row.
 - **Composite Key**: Comprised of *more than one column*. Part of key attribute.  
   e.g. (STU_LNAME, STU_FNAME, STU_PHONE) -> STU_HRS
+- **Superkey**: A theoretical key that can *uniquely identify any row* in a table. It can be a combination of columns. 
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
