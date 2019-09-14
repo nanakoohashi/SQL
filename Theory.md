@@ -1,5 +1,7 @@
 # SQL Theory Sheet
 
+## Keys
+
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
