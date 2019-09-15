@@ -1,5 +1,5 @@
 # SQL Theory Sheet
-
+## Basics
 ## Keys
 ### Primary Key
 A column that *uniquely indentifies* any given row.
