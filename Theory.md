@@ -2,6 +2,7 @@
 ## Basics
 - Table = Entities = Relations
 - Rows = Tuples = Records
+- Columns = Attributes = Fields
 ## Keys
 ### Primary Key
 A column that *uniquely indentifies* any given row.
