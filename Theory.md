@@ -1,11 +1,15 @@
 # SQL Theory Sheet
 
 ## Keys
-- **Primary Key**: A column that *uniquely indentifies* any given row.
-- **Composite Key**: Comprised of *more than one column*. Part of key attribute.  
-  e.g. (STU_LNAME, STU_FNAME, STU_PHONE) -> STU_HRS
-- **Superkey**: A theoretical key that can *uniquely identify any row* in a table. It can be a combination of columns. 
-- **Candidate Key**: A column or set of columns in a table that uniquely identifies any database row without referring to other data.
+### Primary Key
+A column that *uniquely indentifies* any given row.
+### Composite Key
+Comprised of *more than one column*. Part of key attribute.  
+- e.g. (STU_LNAME, STU_FNAME, STU_PHONE) -> STU_HRS
+### Superkey
+A theoretical key that can *uniquely identify any row* in a table. It can be a combination of columns. 
+### Candidate Key
+A column or set of columns in a table that uniquely identifies any database row without referring to other data.
   - A minimal superkey without any unnecessary attributes (theoretical).
 ## Normal Forms
 ### 1NF
