@@ -1,5 +1,6 @@
 # SQL Theory Sheet
 ## Basics
+- Table = Entities = Relations
 ## Keys
 ### Primary Key
 A column that *uniquely indentifies* any given row.
