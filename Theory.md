@@ -6,7 +6,8 @@
 - **(Attribute) Domain**: Specific range of values of each column.
 - **Determination**: Knowing the value of one column makes it possible to determine the value of another.  
   - **Functional Dependence**: The value of one or more columns determines the value of one or more other columns.  
-    - **Determinant**: The column whose value determins another.
+    - **Determinant**: The column whose value determines another.
+    - **Dependent**: The column whose value is determined by the other.
 ## Keys
 ### Primary Key
 A column that *uniquely indentifies* any given row.
