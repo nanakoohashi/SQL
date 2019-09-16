@@ -4,7 +4,8 @@
 - Rows = Tuples = Records
 - Columns = Attributes = Fields
 - **(Attribute) Domain**: Specific range of values of each column.
-- **Determination**: Knowing the value of one column makes it possible to determine the value of another.
+- **Determination**: Knowing the value of one column makes it possible to determine the value of another.  
+  - **Functional Dependence**: The value of one or more columns determines the value of one or more other columns. 
 ## Keys
 ### Primary Key
 A column that *uniquely indentifies* any given row.
