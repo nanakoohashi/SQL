@@ -3,6 +3,7 @@
 - Table = Entities = Relations
 - Rows = Tuples = Records
 - Columns = Attributes = Fields
+- **(Attribute) Domain**: Specific range of values of each column.
 ## Keys
 ### Primary Key
 A column that *uniquely indentifies* any given row.
