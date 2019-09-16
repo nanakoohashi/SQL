@@ -4,6 +4,7 @@
 - Rows = Tuples = Records
 - Columns = Attributes = Fields
 - **(Attribute) Domain**: Specific range of values of each column.
+- **Determination**: Knowing the value of one column makes it possible to determine the value of another.
 ## Keys
 ### Primary Key
 A column that *uniquely indentifies* any given row.
