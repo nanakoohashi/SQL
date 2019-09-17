@@ -26,6 +26,8 @@ The primary key of one table that has been placed into another table to create a
 ### Secondary Key
 Used strictly for **data retrieval purposes** (it is kind of an index, theoretical).
 
+## Rules
+
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
