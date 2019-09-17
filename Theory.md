@@ -6,7 +6,8 @@
 - **(Attribute) Domain**: Specific range of values of each column.
 - **Determination**: Knowing the value of one column makes it possible to determine the value of another.  
   - **Functional Dependence**: The value of one or more columns determines the value of one or more other columns.  
-    - **Determinant**: The column whose value determines another.
+    - **Determinant**: The column whose value determines another.  
+                      *STU_NUM -> STU_NAME*
     - **Dependent**: The column whose value is determined by the other.
 ## Keys
 ### Primary Key
