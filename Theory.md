@@ -22,7 +22,9 @@ A column or set of columns in a table that uniquely identifies any database row 
   - A minimal superkey without any unnecessary attributes (theoretical).
 ### Foreign Key
 The primary key of one table that has been placed into another table to create a **common attribute**. Used to ensure referential integrity.
-  
+### Secondary Key
+Used strictly for **data retrieval purposes** (it is kind of an index, theoretical).
+
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
