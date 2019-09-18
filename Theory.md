@@ -9,7 +9,8 @@
     - **Determinant**: The column whose value determines another.  
                       *STU_NUM -> STU_NAME*
     - **Dependent**: The column whose value is determined by the other.  
-- **Referential Integrity**: The condition in which **every reference to a row by another table is valid**, i.e. every foreign key must either be null or a vaid value in the primary key of the related table.
+- **Referential Integrity**: The condition in which **every reference to a row by another table is valid**, i.e. every foreign key must either be null or a vaid value in the primary key of the related table.  
+  - *Requirement*: FK may have NULL entry as long as it's NOT a part of its table's PK.
 ## Keys
 ### Primary Key
 A column that *uniquely indentifies* any given row.
