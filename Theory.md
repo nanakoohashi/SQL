@@ -12,7 +12,10 @@
 - **Referential Integrity**: The condition in which **every reference to a row by another table is valid**, i.e. every foreign key must either be null or a vaid value in the primary key of the related table.  
   - **Requirement**: FK may have NULL entry as long as it's NOT a part of its table's PK.
     - Every non-null FK value must reference an existing PK value.  
-  - **Flags**: used to avoid NULLs and indicate the absence of some value.
+  - **Flags**: used to avoid NULLs and indicate the absence of some value.  
+- **Entity Integrity Rules**  
+  - **Requirement**: PK entries must be unique.
+    - PK entries cannot be NULL.
 ## Keys
 ### Primary Key
 A column that *uniquely indentifies* any given row.
