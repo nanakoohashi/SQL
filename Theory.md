@@ -36,6 +36,7 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 - **SELECT**: Yields values for all rows that satisfy a given condition.
 - **PROJECT**: Yields values for all selected columns.
 - **UNION**: Combines all rows from two tables excluding duplicate rows. Tables must be union-compatible.
+- **INTERSECT**: Yields only the rows that appear on both tables (duplicates).
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
