@@ -33,7 +33,7 @@ The primary key of one table that has been placed into another table to create a
 Used strictly for **data retrieval purposes** (it is kind of an index, theoretical).
 
 ## Relational Algebra
-
+- **SELECT**: Yields values for all rows that satisfy a given condition.
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
