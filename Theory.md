@@ -34,6 +34,7 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 
 ## Relational Algebra
 - **SELECT**: Yields values for all rows that satisfy a given condition.
+- **PROJECT**: Yields values for all selected columns.
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
