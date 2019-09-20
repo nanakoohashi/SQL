@@ -38,6 +38,8 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 - **UNION**: Combines all rows from two tables excluding duplicate rows. Tables must be union-compatible.
 - **INTERSECT**: Yields only the rows that appear on both tables (duplicates).
 - **DIFFERENCE**: Yields all rows in one table that are not found in the other table.
+- **PRODUCT**: Yields all possible pairs of rows from two tables (Cartesian Product).  
+  - e.g. Table 1 (6 rows) x Table 2 (3 rows) = 18 rows.
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
