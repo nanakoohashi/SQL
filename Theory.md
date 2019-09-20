@@ -44,6 +44,8 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
   1. **Natural Join**: links tables only selecting rows with common values in their common columns.
   2. **Equijoin**: links tables based on an equality condition compares specified columns of each table.
   3. **Inner Join**: only returns matched records from the tables that are being joined.
+  4. **Outer Join**: the matched pairs would be retained and any unmatched values in the other table would be left NULL.  
+    - 
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
