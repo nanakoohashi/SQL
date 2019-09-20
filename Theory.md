@@ -42,6 +42,7 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
   - e.g. Table 1 (6 rows) x Table 2 (3 rows) = 18 rows. 
 - **JOIN**
   1. **Natural Join**: links tables only selecting rows with common values in their common columns.
+  2. **Equijoin**: links tables based on an equality condition compares specified columns of each table.
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
