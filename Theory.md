@@ -39,7 +39,9 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 - **INTERSECT**: Yields only the rows that appear on both tables (duplicates).
 - **DIFFERENCE**: Yields all rows in one table that are not found in the other table.
 - **PRODUCT**: Yields all possible pairs of rows from two tables (Cartesian Product).  
-  - e.g. Table 1 (6 rows) x Table 2 (3 rows) = 18 rows.
+  - e.g. Table 1 (6 rows) x Table 2 (3 rows) = 18 rows. 
+- **JOIN**
+  1. **Natural Join**: links tables only selecting rows with common values in their common columns.
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
