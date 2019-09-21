@@ -47,6 +47,9 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
   4. **Outer Join**: the matched pairs would be retained and any unmatched values in the other table would be left NULL.  
     - **Left Outer Join**: yields all of the rows in table 1 including those that do not have a matching value in table 2.
     - **Right Outer Join**: yields all of the rows in table 2 including those that do not have matching values in table 1.
+    
+## Relationships
+
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
