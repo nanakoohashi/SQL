@@ -51,6 +51,7 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 ## Relationships
 - 1:M is the relatinal model ideal.
 - 1:1 should be rare in relational database design.
+- M:N is not supported directly in the relational environment.
 
 ## Normal Forms
 ### 1NF
