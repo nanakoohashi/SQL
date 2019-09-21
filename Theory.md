@@ -49,7 +49,9 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
     - **Right Outer Join**: yields all of the rows in table 2 including those that do not have matching values in table 1.
     
 ## Relationships
-- 1:M is the relatinal model ideal
+- 1:M is the relatinal model ideal.
+- 1:1 should be rare in relational database design.
+
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
