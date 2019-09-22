@@ -56,6 +56,7 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 ### Degree of Relationship
 - **Unary Relationship**: both participants in the relationship are the same entity (=table).
 - **Binary Relationship**: Two entities participate -> most common.
+- **Ternary Relationship**: Three entities participate.
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
