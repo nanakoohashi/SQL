@@ -61,7 +61,7 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 - **Modality**: minimum number of times a table can be associated with a related entity.
 
 ## ER Modelling
-
+- **Required Attribute**: Column must have value; cannot be left empty.
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
