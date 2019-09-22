@@ -57,6 +57,9 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 - **Unary Relationship**: both participants in the relationship are the same entity (=table).
 - **Binary Relationship**: Two entities participate -> most common.
 - **Ternary Relationship**: Three entities participate.
+- **Cardinality**: maximum number of times an instance of an entity can be associated with a related entity.
+- **Modality**: minimum number of times a table can be associated with a related entity.
+
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
