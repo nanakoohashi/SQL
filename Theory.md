@@ -54,7 +54,7 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 - M:N is not supported directly in the relational environment.
   - Composite entities (=bridge entity = associative entity) are a solution to M:N relationships.
 ### Degree of Relationship
-
+- **Unary Relationship**: both participants in the relationship are the same entity (=table).
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
