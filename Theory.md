@@ -60,6 +60,8 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 - **Cardinality**: maximum number of times an instance of an entity can be associated with a related entity.
 - **Modality**: minimum number of times a table can be associated with a related entity.
 
+## ER Modelling
+
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
