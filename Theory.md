@@ -79,7 +79,10 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
     - Can keep track of historical data
     - Saves storage space
     - Computation always yields current value
-
+  - **Disadvantages**
+    - Requires constant maintenance
+    - Uses CPU processing cycles
+    - Adds coding complexities to queries
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
