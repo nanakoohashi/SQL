@@ -72,6 +72,13 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 - **Simple Attribute**: Cannot be subdivided.
 - **Composite Attribute**: Can be subdivided to yield additional attributes.
 - **Derived Attribute**: Attribute whose value is calculated (derived) from other attributes.
+  - **Advantages**
+    - Saves CPU
+    - Saves data access time
+    - Data value easily accessible
+    - Can keep track of historical data
+    - Saves storage space
+    - Computation always yields current value
 
 ## Normal Forms
 ### 1NF
