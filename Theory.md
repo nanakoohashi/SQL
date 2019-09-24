@@ -64,6 +64,8 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 - **Required Attribute**: Column must have value; cannot be left empty.
 - **Optional Attribute**: Column does not require a value; can be left empty.
 - **Identifiers**: Primary Key.
+- **Composite Identifiers**: A primary key composed of more than one attribute.
+
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
