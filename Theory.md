@@ -67,6 +67,7 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 - **Composite Identifiers**: A primary key composed of more than one attribute.
 ### Types of Attributes
 - **Simple Attribute**: Cannot be subdivided.
+- **Composite Attribute**: Can be subdivided to yield additional attributes.
 
 ## Normal Forms
 ### 1NF
