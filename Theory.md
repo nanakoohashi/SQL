@@ -66,6 +66,7 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 - **Identifiers**: Primary Key.
 - **Composite Identifiers**: A primary key composed of more than one attribute.
 - **Single-valued Attribute**: attribute that can only have a single value. *e.g. SSN*
+- **Multi-valued Attribute**: attribute that can have many values. *e.g. a person may have several college degrees.
 
 ### Types of Attributes
 - **Simple Attribute**: Cannot be subdivided.
