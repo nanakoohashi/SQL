@@ -65,12 +65,13 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 - **Optional Attribute**: Column does not require a value; can be left empty.
 - **Identifiers**: Primary Key.
 - **Composite Identifiers**: A primary key composed of more than one attribute.
-- **Single-valued Attribute**: attribute that can only have a single value. *e.g. SSN*
-- **Multi-valued Attribute**: attribute that can have many values. *e.g. a person may have several college degrees.
+- **Single-valued Attribute**: Attribute that can only have a single value. *e.g. SSN*
+- **Multi-valued Attribute**: Attribute that can have many values. *e.g. a person may have several college degrees.
 
 ### Types of Attributes
 - **Simple Attribute**: Cannot be subdivided.
 - **Composite Attribute**: Can be subdivided to yield additional attributes.
+- **Derived Attribute**: Attribute whose value is calculated (derived) from other attributes.
 
 ## Normal Forms
 ### 1NF
