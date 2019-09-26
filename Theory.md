@@ -92,8 +92,8 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
  2. Entity has PK that is partially/totally derived from the parent entity.
 - **Optional participation**: one entity occurrence does not require a corresponding entity occurrence.
 
-## Basoc SQL
-
+## Basic SQL
+- **DDL (Data Definition Language)**: commands that create database objects (tables, indexes). 
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
