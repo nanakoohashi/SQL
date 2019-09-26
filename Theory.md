@@ -94,6 +94,7 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 
 ## Basic SQL
 - **DDL (Data Definition Language)**: commands that create database objects (tables, indexes). 
+- **DML (Data Manipulation Language)** commands that insers update, delete, retrieve data.
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
