@@ -87,6 +87,9 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 - **Existence Independence**: = strong entity = regular entity.
 - **Weak (non-identitying) Relationships**: Primary key of the related entity does not contain a primary key component of the parent entity.
 - **Strong (identifying) Relationship**: PK of related entity contains PK component of parent entity.
+- **Weak Entities**:
+ 1. Entity is existence-dependent.
+ 2. Entity has PK that is partially/totally derived from the parent entity.
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
