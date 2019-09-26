@@ -84,6 +84,7 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
     - Uses CPU processing cycles
     - Adds coding complexities to queries
 - **Existence Dependence**: An entity that can only exist in the database when it is associated with another related entity occurrence.
+- **Existence Independence**: = strong entity = regular entity.
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
