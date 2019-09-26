@@ -90,6 +90,7 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
 - **Weak Entities**:
  1. Entity is existence-dependent.
  2. Entity has PK that is partially/totally derived from the parent entity.
+- **Strong (identifying) Relationship**: PK of related entity contains PK companies of parent entity.
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
