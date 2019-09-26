@@ -83,6 +83,7 @@ Used strictly for **data retrieval purposes** (it is kind of an index, theoretic
     - Requires constant maintenance
     - Uses CPU processing cycles
     - Adds coding complexities to queries
+- **Existence Dependence**: An entity that can only exist in the database when it is associated with another related entity occurrence.
 ## Normal Forms
 ### 1NF
 - Most basic of Normal Forms.
