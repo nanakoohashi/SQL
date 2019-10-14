@@ -3,5 +3,3 @@
 ## Summary
 This repository contains basic mySQL concepts and code.
 
-## Getting Started
-- mySQL
