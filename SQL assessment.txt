@@ -1,0 +1,53 @@
+--#1 Number of Responses in October 2020
+SELECT COUNT(*) FROM nps_responses
+WHERE create_date BETWEEN '2020-10-01' AND '2020-10-31';
+
+-- #2 Mean score among all responses
+SELECT AVG(score) FROM nps_responses;
+
+-- #3 Number of detractors, passives and promotors
+-- # Detractors
+SELECT COUNT(*) FROM nps_responses
+WHERE score BETWEEN 0 and 6;
+-- # Passive
+SELECT COUNT(*) FROM nps_responses
+WHERE score BETWEEN 7 and 8;
+-- # Promotor
+SELECT COUNT(*) FROM nps_responses
+WHERE score BETWEEN 9 and 10;
+
+--#4 Number of enterprise accounts submitted 1 or more NPS score
+
+SELECT COUNT(*) 
+FROM account_data_with_users
+LEFT JOIN nps_responses ON user_id
+GROUP BY account_id
+HAVING score IS NOT NULL;
+
+-- #5 Ratio of new to returning NPS responses
+-- Create table
+CREATE TABLE submissions(
+  user_id INTEGER,
+  number_submissions INTEGER,
+  first_entry INTEGER,
+  repeated_entries INTEGER);
+
+-- Fill in user_id and number_submissions column
+INSERT INTO submissions (user_id, number_submissions)  
+SELECT user_id, COUNT(*)
+FROM nps_responses
+GROUP BY user_id
+
+-- Fill in first_entry column
+UPDATE submissions
+SET first_entry = CASE
+	WHEN number_submissions > 0 THEN 1
+    ELSE 0
+    END;
+- Fill in repeated_entries column    
+UPDATE submissions
+SET repeated_entries = MAX(0, number_submissions - 1);
+
+-- Create ratio column 
+SELECT CONCAT(SUM(repeated_entries), ':', SUM(first_entry) AS ratio_new_returning  
+FROM submissions;
